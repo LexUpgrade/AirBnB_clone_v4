@@ -36,7 +36,6 @@ $(document).ready( function () {
     dataType: 'json',
     headers: { 'Content-Type': 'application/json'}
   }).done( function (places) {
-    console.log(places);
     $.each( places, function (index, place) {
       const article = $('<article/>').appendTo('section.places');
 
