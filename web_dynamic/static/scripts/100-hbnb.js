@@ -42,7 +42,7 @@ $(document).ready( function () {
     }
   });
 
-  $("div.locations > div.popover > ul > li > ul > li >input[type='checkbox']").change( function () {
+  $("div.locations > div.popover > ul > li > ul > li > input[type='checkbox']").change( function () {
     const id = this.getAttribute('data-id');
     const name = this.getAttribute('data-name');
 
